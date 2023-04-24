@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS DEV.com</title>
+    <link rel="icon" href="IMG/iconhs.PNG">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="IMG/iconhs.PNG" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./services.html">Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sam">SEARCH</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Hi,</p>
+                <p class="text-medium">Iam <span> H</span>assan</p>
+
+                <p class="text-small">iam new WebDeveloper
+                    adipisicing elit. Illum odit venThe Future </p>
+                    <div class="button">
+                        <button class="btn">More Visit</button>
+                        <button class="btn">Download</button>
+                    </div>
+            </div>
+            <div class="secondHalf">
+                <img src="https://source.unsplash.com/900x900/?Developer/" alt="laptop image">
+            </div>
+        </div>
+    </section>
+    <section class="Section">
+        <div class="paras">
+        <p class="sectionTag">Editing</p>
+        <p class="sectionSubTag">Editing is the process of selecting and preparing written, photographic, visual, audible, or cinematic material used by a person or an entity to convey a message or information. The editing process can involve correction, condensation, organisation, and many other modifications performed with an intention of producing a correct, consistent, accurate and complete piece of work.[1]
+
+            The editing process often begins with the author's idea for the work itself, continuing as a collaboration between the author and the editor as the work is created. Editing can involve creative skills, human relations and a precise set of methods.[2][3] </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?Video Editing/" alt="Editing" alt="image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section-Left">
+        <div class="paras">
+        <p class="sectionTag">Web design</p>
+        <p class="sectionSubTag">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.[1] The term "web design" is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web design partially overlaps web engineering</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?Javascript,apple,/" alt="Web design" alt="image" class="imgFluid">
+        </div>
+    </section>
+    <section class="Section">
+        <div class="paras">
+        <p class="sectionTag">Website</p>
+        <p class="sectionSubTag">A website (also written as a web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment or social networking. Hyperlinking between web pages guides the navigation of the site, which often starts with a home page. As of December 2022, the top 5 most visited websites are Google Search, YouTube, Facebook, Twitter, and Instagram.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?Website,apple/" alt="Web design" alt="image" class="imgFluid">
+        </div>
+    </section>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container{
+            max-width: 107%;
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>
+        <h3>Contact Form</h3>
+        
+        <div class="container" id="contact">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <footer class="background">
+            <p class="text-footer">
+                Copyrigth &copy;2030 - www.HSDEV.com - All right reserved
+            </p>
+        </footer>   
+    </body>
+    <script src="../JS/script.js"></script>
+</html>
